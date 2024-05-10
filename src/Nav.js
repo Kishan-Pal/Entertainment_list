@@ -1,9 +1,11 @@
+import SearchBar from "./SearchBar";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
     <nav>
-      <ul class="flex flex-row *:p-2 bg-[#1a2077] *:text-[#fff]">
+      <SearchBar />
+      <ul className="flex flex-row *:p-2 bg-[#1a2077] *:text-[#fff]">
         <Link to="/anime" class="hover:bg-[#ff8383c4]">
           Anime
         </Link>
